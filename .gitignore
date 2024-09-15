@@ -1,3 +1,34 @@
 # https://dart.dev/guides/libraries/private-files
 # Created by `dart pub`
+# Dart/Flutter specific files
 .dart_tool/
+.packages
+.pub/
+build/
+pubspec.lock
+
+# IDE specific files
+.idea/
+.vscode/
+*.iml
+
+# Operating system specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Generated files
+*.g.dart
+*.pb.dart
+
+# Environment files
+*.env
+
+# OS generated files
+*.swp
+*.swo
+
+# Dependency directories
+pubspec.lock
