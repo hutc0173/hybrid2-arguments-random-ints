@@ -13,9 +13,7 @@ class Lucky {
     final maxString = Platform.environment["MAX"];
     final max = int.tryParse(maxString ?? '100') ?? 100;
 
-    final randomNumber = Random()
-
-    // need to finish generating random number
-
+    final random = Random();
+    return min + random.nextInt(max - min + 1);
   }
 }
